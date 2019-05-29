@@ -127,6 +127,8 @@ span.my_name {
 
 #biography dd {
   margin-left: 170px;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
 
 #biography a {
