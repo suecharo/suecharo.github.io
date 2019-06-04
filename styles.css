@@ -1,26 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-html {
-  height: 100%;
-}
-
 body {
   font-family: "Noto Sans JP", sans-serif;
-  text-align: left;
-  margin: 50pt;
+  margin: 20pt;
   background-color: #f0f0f0;
   color: #333333;
 }
 
-header {
-  border-bottom: 3px solid #c0c0c0;
-}
-
 h1 {
+  border-bottom: 3px solid #c0c0c0;
   font-size: 2.4em;
   font-weight: normal;
 }
@@ -34,171 +20,51 @@ h2 {
 
 h3 {
   font-size: 1.2em;
-  font-weight: normal;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-dt {
-  float: left;
-  clear: both;
-}
-
-main {
-  margin-left: 20px;
-}
-
-article * :not(h2) :not(h3) {
-  margin-left: 10px;
-}
-
-span.publisher {
-  font-style: italic;
-  margin-left: 0px;
-}
-
-span.my_name {
-  font-weight: bold;
-  text-decoration: underline;
-  margin-left: 0px;
-}
-
-#lang {
-  text-align: right;
-}
-
-#about_me {
-  margin-top: 30px;
-}
-
-#profile_container > dd > p:nth-child(1) > a {
-  margin-left: 0px;
-}
-
-#profile_container {
-  display: block;
-  height: 225px;
-}
-
-#profile_container > dt {
-  margin-left: 0px;
-}
-
-#profile_container > dt * {
-  margin-left: 0px;
-}
-
-#profile_container > dd {
-  margin-left: 360px;
-}
-
-#profile_container > dd > #name {
-  font-size: 1.2em;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-#profile_container > dd > #cv_scholar {
-  margin-top: 10px;
-  margin-left: 0px;
-}
-
-#sns {
-  margin-top: 10px;
-  margin-left: 5px;
-}
-
-#sns a {
-  margin-left: 5px;
-}
-
-#sns img {
-  margin-left: 0px;
-}
-
-#research_interest > p {
-  text-indent: 1em;
-}
-
-#research_interest > ul {
-  margin-top: 5px;
-  margin-left: 40px;
-}
-
-#biography dd {
-  margin-left: 170px;
-  margin-top: 6px;
-  margin-bottom: 6px;
-}
-
-#biography a {
-  margin-left: 0px;
-}
-
-#projects .projects_container {
-  display: block;
-  height: 185px;
-}
-
-#projects .projects_container > dt {
-  margin-left: 0px;
-}
-
-#projects .projects_container > dt * {
-  margin-left: 0px;
-}
-
-#projects .projects_container > dd {
-  margin-left: 250px;
-}
-
-#projects .projects_container h3 {
-  font-size: 1.1em;
-}
-
-#projects .projects_container p {
-  margin-left: 0px;
-}
-
-#projects .projects_container a {
-  margin-left: 0px;
-}
-
-#projects .projects_description {
-  margin-left: 0px;
-  text-indent: 1em;
-}
-
-#projects .projects_links {
-  margin-top: 5px;
-  margin-left: 0px;
-}
-
-#publications a {
-  margin-left: 0px;
-}
-
-#publications ol {
-  margin-left: 30px;
-}
-
-#publications li {
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
-#links ul {
-  margin-top: 15px;
-  list-style-type: none;
-}
-
-#links li {
-  padding-top: 3px;
-  padding-bottom: 3px;
 }
 
 footer {
   font-size: 0.8em;
   text-align: center;
-  margin: 0 auto;
+}
+
+dt {
+  font-weight: normal;
+  float: left;
+  clear: both;
+}
+
+li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#language {
+  text-align: right;
+}
+
+#name {
+  font-size: 1.2em;
+}
+
+#biography dd {
+  margin-left: 150px;
+}
+
+#research_interest li {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#links ul {
+  list-style-type: none;
+}
+
+.indent {
+  text-indent: 1em;
+}
+
+.bar {
+  text-decoration: underline;
 }
