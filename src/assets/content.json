@@ -1,0 +1,192 @@
+{
+  "ja": {
+    "profile": {
+      "selfie": "selfie.png",
+      "affiliation": "<a href='https://www.u-tokyo.ac.jp/ja/index.html' target='_blank'>東京大学大学院</a> <a href='https://www.i.u-tokyo.ac.jp/' target='_blank'>情報理工学系研究科</a><br><a href='https://www.i.u-tokyo.ac.jp/edu/course/ci/' target='_blank'>創造情報学専攻</a> <a href='https://www-ui.is.s.u-tokyo.ac.jp/' target='_blank'>五十嵐研究室</a>",
+      "position": "博士課程1年",
+      "name": "末竹 裕貴",
+      "email": "suehiro619 (at) gmail.com",
+      "link": [
+        {
+          "name": "GitHub",
+          "src": "https://github.com/suecharo",
+          "icon": "icon/icon_github.png"
+        },
+        {
+          "name": "Twitter",
+          "src": "https://github.com/suecharo",
+          "icon": "icon/icon_twitter.png"
+        },
+        {
+          "name": "Blog",
+          "src": "https://suecharo.hatenadiary.com/",
+          "icon": "icon/icon_blog.png"
+        }
+      ],
+      "researchInterest": {
+        "shortBio": "生命科学分野や計算機科学分野において、実験や解析を効率良く行うための研究を行っています。博士課程では、日本学術振興会特別研究員(DC1)として「バイオインフォマティクスのためのインタラクション」について取り組んでいます。またエンジニアとして、様々な研究機関向けのインフラストラクチャ構築やシステム開発に携わっています。",
+        "topics": [
+          "Life Science",
+          "Bioinformatics",
+          "Computer Science",
+          "Human Computer Interaction",
+          "Game Design",
+          "Computational Workflow",
+          "Reproducibility"
+        ]
+      }
+    },
+    "biography": {
+      "education": [
+        {
+          "from": "Apr.2020",
+          "to": "Current",
+          "content": "<a href='https://www.u-tokyo.ac.jp/ja/index.html' target='_blank'>東京大学大学院</a> <a href='https://www.i.u-tokyo.ac.jp/' target='_blank'>情報理工学系研究科</a><br><a href='https://www.i.u-tokyo.ac.jp/edu/course/ci/' target='_blank'>創造情報学専攻</a> 博士課程<br>Mentor: <a href='https://www-ui.is.s.u-tokyo.ac.jp/~takeo/index-j.html' target='_blank'>Takeo Igarashi</a>"
+        },
+        {
+          "from": "Apr.2018",
+          "to": "Mar.2020",
+          "content": "<a href='https://www.u-tokyo.ac.jp/ja/index.html' target='_blank'>東京大学大学院</a> <a href='https://www.i.u-tokyo.ac.jp/' target='_blank'>情報理工学系研究科</a><br><a href='https://www.i.u-tokyo.ac.jp/edu/course/ci/' target='_blank'>創造情報学専攻</a> 修士課程<br>Mentor: <a href='https://www-ui.is.s.u-tokyo.ac.jp/~takeo/index-j.html' target='_blank'>Takeo Igarashi</a>"
+        },
+        {
+          "from": "Apr.2013",
+          "to": "Mar.2018",
+          "content": "<a href='https://www.titech.ac.jp' target='_blank'>東京工業大学</a> <a href='https://educ.titech.ac.jp/bio/' target='_blank'>生命理工学部</a><br><a href='http://www.bio.titech.ac.jp/dept/kagaku/index.html' target='_blank'>生命科学科</a> 学士課程<br>Menter: <a href='https://researchmap.jp/maskot/' target='_blank'>Masaaki Kotera</a>"
+        }
+      ],
+      "appointments": [
+        {
+          "from": "Oct.2019",
+          "to": "Sep.2019",
+          "content": "<a href='https://www.preferred-networks.jp/ja/'>株式会社 Preferred Networks</a>"
+        },
+        {
+          "from": "Apr.2019",
+          "to": "Apr.2019",
+          "content": "<a href='https://www.usc.edu' target='_blank'>The University of Southern California</a><br>Interactive Media & Games Division<br>School of Cinematic Arts<br><a href='https://www.gameinnovationlab.com/' target='_blank'>Game Innovation Laboratory</a><br>Menter: <a href='http://www.nealen.net/' target='_blank'>Andy Nealen</a>"
+        }
+      ],
+      "workExperience": [
+        {
+          "from": "Oct.2019",
+          "to": "Current",
+          "content": "<a href='https://www.ipa.go.jp/index.html' target='_blank'>独立行政法人情報処理推進機(IPA)</a><br>情報処理技術者試験委員"
+        },
+        {
+          "from": "Dec.2017",
+          "to": "Jun.2020",
+          "content": "<a href='https://www.rhelixa.com' target='_blank'>株式会社 Rhelixa</a>"
+        },
+        {
+          "from": "Sep.2017",
+          "to": "Current",
+          "content": "<a href='http://www.ascade.co.jp' target='_blank'>株式会社アスケイド</a>"
+        },
+        {
+          "from": "Oct.2017",
+          "to": "Current",
+          "content": "<a href='http://www.riken.jp/research/labs/aip/' target='_blank'>理化学研究所 革新知能統合研究センター</a><br><a href='http://www.riken.jp/research/labs/aip/generic_tech/search_parallelcomput/' target='_blank'>探索と並列計算ユニット</a><br>Research Assistant<br>Menter: <a href='https://researchmap.jp/k-yoshizoe/' target='_blank'>Kazuki Yoshizoe</a>"
+        }
+      ]
+    },
+    "projects": {},
+    "publications": {},
+    "talks": {},
+    "fundingSources": {}
+  },
+  "en": {
+    "profile": {
+      "selfie": "selfie.png",
+      "affiliation": "<a href='https://www.i.u-tokyo.ac.jp/index_e.shtml' target='_blank'>Graduate School of Information Science and Technology</a>,<br><a href='https://www.u-tokyo.ac.jp/en/index.html' target='_blank'>University of Tokyo</a>, <a href='https://www-ui.is.s.u-tokyo.ac.jp/en/' target='_blank'>Igarashi Laboratory</a>",
+      "position": "Ph.D. Student 1st year",
+      "name": "Hirotaka Suetake",
+      "email": "suehiro619 (at) gmail.com",
+      "link": [
+        {
+          "name": "GitHub",
+          "src": "https://github.com/suecharo",
+          "icon": "icon/icon_github.png"
+        },
+        {
+          "name": "Twitter",
+          "src": "https://github.com/suecharo",
+          "icon": "icon/icon_twitter.png"
+        },
+        {
+          "name": "Blog",
+          "src": "https://suecharo.hatenadiary.com/",
+          "icon": "icon/icon_blog.png"
+        }
+      ],
+      "researchInterest": {
+        "shortBio": "I'm researching to make experiments and analyses more efficient in the life sciences and computer science fields. In my Ph.D. course, I'm working on 'Interaction for Bioinformatics' as a Japan Society for the Promotion of Science(JSPS) research fellowship(DC1). Also, as an engineer, I involve in building infrastructure and developing systems for various research institutions.",
+        "topics": [
+          "Life Science",
+          "Bioinformatics",
+          "Computer Science",
+          "Human Computer Interaction",
+          "Game Design",
+          "Computational Workflow",
+          "Reproducibility"
+        ]
+      }
+    },
+    "biography": {
+      "education": [
+        {
+          "from": "Apr.2020",
+          "to": "Current",
+          "content": "Ph.D. Course,<br><a href='https://www.i.u-tokyo.ac.jp/index_e.shtml' target='_blank'>Graduate School of Information Science and Technology</a>,<br><a href='https://www.u-tokyo.ac.jp/en/index.html' target='_blank'>University of Tokyo</a>, Japan<br>Mentor: <a href='https://www-ui.is.s.u-tokyo.ac.jp/~takeo/index.html' target='_blank'>Takeo Igarashi</a>"
+        },
+        {
+          "from": "Apr.2018",
+          "to": "Mar.2020",
+          "content": "Master Course,<br><a href='https://www.i.u-tokyo.ac.jp/index_e.shtml' target='_blank'>Graduate School of Information Science and Technology</a>,<br><a href='https://www.u-tokyo.ac.jp/en/index.html' target='_blank'>University of Tokyo</a>, Japan<br>Mentor: <a href='https://www-ui.is.s.u-tokyo.ac.jp/~takeo/index.html' target='_blank'>Takeo Igarashi</a>"
+        },
+        {
+          "from": "Apr.2013",
+          "to": "Mar.2018",
+          "content": "Bachelor Course,<br>Department of Bioscience, <a href='http://www.bio.titech.ac.jp/english/' target='_blank'>School of Bioscience and Biotechnology</a>,<br><a href='https://www.titech.ac.jp/english/' target='_blank'>Tokyo Institute of Technology</a>, Japan<br>Menter: <a href='https://researchmap.jp/maskot/?lang=en' target='_blank'>Masaaki Kotera</a>"
+        }
+      ],
+      "appointments": [
+        {
+          "from": "Oct.2019",
+          "to": "Sep.2019",
+          "content": "<a href='https://preferred.jp/en/'>Preferred Networks, Inc.</a>"
+        },
+        {
+          "from": "Apr.2019",
+          "to": "Apr.2019",
+          "content": "<a href='https://www.usc.edu' target='_blank'>The University of Southern California</a><br>Interactive Media & Games Division<br>School of Cinematic Arts<br><a href='https://www.gameinnovationlab.com/' target='_blank'>Game Innovation Laboratory</a><br>Menter: <a href='http://www.nealen.net/' target='_blank'>Andy Nealen</a>"
+        }
+      ],
+      "workExperience": [
+        {
+          "from": "Oct.2019",
+          "to": "Current",
+          "content": "<a href='https://www.ipa.go.jp/index-e.html' target='_blank'>Information-Technology Promotion Agency(IPA)</a><br>Information-Technology Engineers Examination Committee"
+        },
+        {
+          "from": "Dec.2017",
+          "to": "Jun.2020",
+          "content": "<a href='https://www.rhelixa.com' target='_blank'>Rhelixa, Inc.</a>"
+        },
+        {
+          "from": "Sep.2017",
+          "to": "Current",
+          "content": "<a href='http://www.ascade.co.jp' target='_blank'>ASCADE, Inc.</a>"
+        },
+        {
+          "from": "Oct.2017",
+          "to": "Current",
+          "content": "<a href='https://www.riken.jp/en/research/labs/aip/index.html' target='_blank'>RIKEN Center for Advanced Intelligence Project (AIP)</a><br><a href='https://www.riken.jp/en/research/labs/aip/generic_tech/search_parallelcomput/index.html' target='_blank'>Search and Parallel Computing Unit</a><br>Research Assistant<br>Menter: <a href='https://researchmap.jp/k-yoshizoe/?lang=en' target='_blank'>Kazuki Yoshizoe</a>"
+        }
+      ]
+    },
+    "projects": {},
+    "publications": {},
+    "talks": {},
+    "fundingSources": {}
+  }
+}

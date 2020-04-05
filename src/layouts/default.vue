@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-content>
+    <v-content class="background">
       <nuxt />
     </v-content>
   </v-app>
@@ -9,3 +9,10 @@
 <script>
 export default {}
 </script>
+
+<style>
+.background {
+  background-image: url('~assets/shattered.png');
+  background-repeat: repeat;
+}
+</style>

@@ -1,5 +1,3 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
   mode: 'universal',
   /*
@@ -48,18 +46,14 @@ export default {
    ** https://github.com/nuxt-community/vuetify-module
    */
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: false,
       themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
+        light: {
+          primary: '#2B1F1F', // darkness 43, 31, 31
+          accent: '#BA2A2A', // Shinto 186, 42, 42
+          secondary: '#435847', // Coloud Pump 67, 88, 71
+          info: '#EBE9DA', // Huh 235, 233, 218
+          error: '#B1B4AD' // sparkling silver 177, 180, 173
         }
       }
     }
