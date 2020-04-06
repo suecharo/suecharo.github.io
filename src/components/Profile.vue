@@ -35,9 +35,9 @@
     <div class="d-flex flex-column text-justify mt-4">
       <!-- eslint-disable-next-line vue/no-v-html -->
       <div v-html="profile.researchInterest.shortBio"></div>
-      <div class="d-flex flex-column ml-2">
+      <div class="d-flex flex-column mt-2 ml-2">
         <div class="subtitle-1 font-weight-medium">Topics</div>
-        <ul class="ml-4">
+        <ul class="ml-2">
           <li v-for="(topic, i) in profile.researchInterest.topics" :key="i">
             {{ topic }}
           </li>
@@ -60,11 +60,11 @@ export default {
     ...mapGetters({
       profile: 'content/getProfile'
     }),
-    selfieWidth() {
-      return this.$vuetify.breakpoint.smAndUp ? '300px' : '1000px'
-    },
     breakpointSmAndUp() {
       return this.isHydrated ? this.$vuetify.breakpoint.smAndUp : true
+    },
+    selfieWidth() {
+      return this.$vuetify.breakpoint.smAndUp ? '300px' : '1000px'
     }
   },
   mounted() {

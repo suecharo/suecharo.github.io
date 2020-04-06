@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column">
-    <h2 class="title">Biography</h2>
+    <h2 class="title mb-2">Biography</h2>
     <div
       v-for="(val, key, i) in biography"
       :key="i"

@@ -15,4 +15,14 @@ export default {}
   background-image: url('~assets/shattered.png');
   background-repeat: repeat;
 }
+
+/* h1,
+h2,
+h3,
+ol,
+ul,
+div,
+li {
+  border: 1px solid black;
+} */
 </style>

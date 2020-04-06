@@ -89,10 +89,48 @@
         }
       ]
     },
-    "projects": {},
-    "publications": {},
-    "talks": {},
-    "fundingSources": {}
+    "projects": [
+      {
+        "title": "Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers",
+        "thumbnail": "project/marioInterface.png",
+        "description": "Visualizing MCTS-based tester's results for manually making 'Super Mario Brothers' stages",
+        "link": "Link is in the making."
+      },
+      {
+        "title": "tonkaz",
+        "thumbnail": "project/tonkaz.jpeg",
+        "description": "データ解析のための CLI テストツール",
+        "link": "<a href='https://github.com/suecharo/tonkaz' target='_blank'>GitHub</a>"
+      },
+      {
+        "title": "SAPPORO: workflow management system that supports continuous testing of workflows",
+        "thumbnail": "project/sapporo.png",
+        "description": "GA4GH API 定義に準拠したワークフロ管理実行システム",
+        "link": "<a href='https://github.com/ddbj/SAPPORO' target='_blank'>GitHub</a>"
+      }
+    ],
+    "publications": {
+      "fullPaper": [
+        "<u><b>Hirotaka Suetake</b></u>, Masaaki Kotera. 'KPHMMER: Hidden Markov Model generator for detecting KEGG PATHWAYspecific genes.' 2019. [<a href='https://doi.org/10.1101/636290' target='_blank'>doi</a>] [<a href='https://www.biorxiv.org/content/10.1101/636290v1' target='_blank'>link</a>]",
+        "Masayuki Sato, <u><b>Hirotaka Suetake</b></u>, Masaaki Kotera. 'KCF-Convoy: efficient Python package to convert KEGG Chemical Function and Substructure fingerprints.' 2019. [<a href='https://doi.org/10.1101/452383' target='_blank'>doi</a>] [<a href='https://www.biorxiv.org/content/10.1101/452383v1' target='_blank'>link</a>]"
+      ],
+      "shortPaper_extendedAbstract": [
+        "<u><b>Hirotaka Suetake</b></u>, Tsukasa Fukusato, Christian Arzate Cruz, Andy Nealen, Takeo Igarashi. 'Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers' In Proceedings of the 15th International Conference on the Foundations of Digital Games (FDG), pp.xx-xx, Malta, 2020.09.15-18. (accepted)"
+      ],
+      "poster_abstract_demonstration": [
+        "<u><b>Hirotaka Suetake</b></u>，Tsukasa Fukusato，Arzate Cruz Christian，Andy Nealen，Takeo Igarashi. 'ゲームAIによるパラメータ空間解析を活用した難易度調整用インターフェース' <i>The 27th Workshop on Interactive Systems and Software (WISS 2019)</i>, Nagano, 2019.9.25-27.",
+        "<u><b>Hirotaka Suetake</b></u>, Tazro Ohta. 'SAPPORO: workflow management system that supports continuous testing of workflows.' <i>Intelligent Systems for Molecular Biology, European Conference on Computational Biology 2019 (ISMB/ECCB 2019)</i>, Basel, 2019.7.21-25.",
+        "<u><b>Hirotaka Suetake</b></u>, Ryo Nakaki. 'RyuGoo-Saba: a CWL-based execution engine utilizing cloud resources for big data analysis in life science.' <i>Galaxy Community and Bioinformatics Open Source Conference 2018 (GCC/BOSC 2018)</i>, B15, Portland, 2018.6.25-30. [<a href='https://f1000research.com/posters/7-1053' target='_blank'>link</a>]"
+      ]
+    },
+    "talks": [
+      "<u><b>Hirotaka Suetake</b></u>. 'データ解析のためのテストフレームワーク' <i>Informatics in Biology, Medicine and Pharmacology (IIBMP 2019)</i>, Tokyo, 2019.9.9-11.",
+      "<u><b>Hirotaka Suetake</b></u>. 'SAPPORO & tonkaz: Test framework for data analysis.' <i>BioHackathon 2019 Symposium</i>, Fukuoka, 2019.9.1. [<a href='http://2019.biohackathon.org/symposium' target='_blank'>link</a>]",
+      "<u><b>Hirotaka Suetake</b></u>, Tazro Ohta. 'SAPPORO: workflow management system that supports continuous testing of workflows.' <i>AMED-GA4GH GEM Japan workshop 2019</i>, Sendai, 2019.3.18-21. [<a href='https://www.biobank.amed.go.jp/news/2019-04-01-12-00-00.html' target='_blank'>link</a>]"
+    ],
+    "fundingSources": [
+      "日本学術振興会 特別研究員 (DC1) 'バイオインフォマティクスのためのインタラクション', 2020.04-2023.03."
+    ]
   },
   "en": {
     "profile": {
@@ -184,9 +222,47 @@
         }
       ]
     },
-    "projects": {},
-    "publications": {},
-    "talks": {},
-    "fundingSources": {}
+    "projects": [
+      {
+        "title": "Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers",
+        "thumbnail": "project/marioInterface.png",
+        "description": "Visualizing MCTS-based tester's results for manually making 'Super Mario Brothers' stages",
+        "link": "Link is in the making."
+      },
+      {
+        "title": "tonkaz",
+        "thumbnail": "project/tonkaz.jpeg",
+        "description": "CLI testing tools for data analysis",
+        "link": "<a href='https://github.com/suecharo/tonkaz' target='_blank'>GitHub</a>"
+      },
+      {
+        "title": "SAPPORO: workflow management system that supports continuous testing of workflows",
+        "thumbnail": "project/sapporo.png",
+        "description": "Workflow execution system based on the GA4GH API definition",
+        "link": "<a href='https://github.com/ddbj/SAPPORO' target='_blank'>GitHub</a>"
+      }
+    ],
+    "publications": {
+      "fullPaper": [
+        "<u><b>Hirotaka Suetake</b></u>, Masaaki Kotera. 'KPHMMER: Hidden Markov Model generator for detecting KEGG PATHWAYspecific genes.' 2019. [<a href='https://doi.org/10.1101/636290' target='_blank'>doi</a>] [<a href='https://www.biorxiv.org/content/10.1101/636290v1' target='_blank'>link</a>]",
+        "Masayuki Sato, <u><b>Hirotaka Suetake</b></u>, Masaaki Kotera. 'KCF-Convoy: efficient Python package to convert KEGG Chemical Function and Substructure fingerprints.' 2019. [<a href='https://doi.org/10.1101/452383' target='_blank'>doi</a>] [<a href='https://www.biorxiv.org/content/10.1101/452383v1' target='_blank'>link</a>]"
+      ],
+      "shortPaper_extendedAbstract": [
+        "<u><b>Hirotaka Suetake</b></u>, Tsukasa Fukusato, Christian Arzate Cruz, Andy Nealen, Takeo Igarashi. 'Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers' In Proceedings of the 15th International Conference on the Foundations of Digital Games (FDG), pp.xx-xx, Malta, 2020.09.15-18. (accepted)"
+      ],
+      "poster_abstract_demonstration": [
+        "<u><b>Hirotaka Suetake</b></u>，Tsukasa Fukusato，Arzate Cruz Christian，Andy Nealen，Takeo Igarashi. 'ゲームAIによるパラメータ空間解析を活用した難易度調整用インターフェース' <i>The 27th Workshop on Interactive Systems and Software (WISS 2019)</i>, Nagano, 2019.9.25-27.",
+        "<u><b>Hirotaka Suetake</b></u>, Tazro Ohta. 'SAPPORO: workflow management system that supports continuous testing of workflows.' <i>Intelligent Systems for Molecular Biology, European Conference on Computational Biology 2019 (ISMB/ECCB 2019)</i>, Basel, 2019.7.21-25.",
+        "<u><b>Hirotaka Suetake</b></u>, Ryo Nakaki. 'RyuGoo-Saba: a CWL-based execution engine utilizing cloud resources for big data analysis in life science.' <i>Galaxy Community and Bioinformatics Open Source Conference 2018 (GCC/BOSC 2018)</i>, B15, Portland, 2018.6.25-30. [<a href='https://f1000research.com/posters/7-1053' target='_blank'>link</a>]"
+      ]
+    },
+    "talks": [
+      "<u><b>Hirotaka Suetake</b></u>. 'データ解析のためのテストフレームワーク' <i>Informatics in Biology, Medicine and Pharmacology (IIBMP 2019)</i>, Tokyo, 2019.9.9-11.",
+      "<u><b>Hirotaka Suetake</b></u>. 'SAPPORO & tonkaz: Test framework for data analysis.' <i>BioHackathon 2019 Symposium</i>, Fukuoka, 2019.9.1. [<a href='http://2019.biohackathon.org/symposium' target='_blank'>link</a>]",
+      "<u><b>Hirotaka Suetake</b></u>, Tazro Ohta. 'SAPPORO: workflow management system that supports continuous testing of workflows.' <i>AMED-GA4GH GEM Japan workshop 2019</i>, Sendai, 2019.3.18-21. [<a href='https://www.biobank.amed.go.jp/news/2019-04-01-12-00-00.html' target='_blank'>link</a>]"
+    ],
+    "fundingSources": [
+      "Research Fellowship for Young Scientists (DC1), JSPS. 2020.4-2023.3."
+    ]
   }
 }
