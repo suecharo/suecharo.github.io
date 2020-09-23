@@ -2,7 +2,7 @@ export default {
   ssr: false,
   target: 'static',
   head: {
-    titleTemplate: '%s - suecharo.github.io',
+    titleTemplate: '%s',
     title: 'Hirotaka Suetake Web Page',
     meta: [
       { charset: 'utf-8' },
@@ -22,7 +22,6 @@ export default {
   modules: ['@nuxtjs/axios'],
   axios: {},
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
     theme: {
       themes: {
         light: {

@@ -94,7 +94,7 @@
         "title": "Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers",
         "thumbnail": "project/marioInterface.png",
         "description": "Visualizing MCTS-based tester's results for manually making 'Super Mario Brothers' stages",
-        "link": "<a href='./projects/mario' target='_blank'>Project</a>"
+        "link": "<a href='https://doi.org/10.1145/3402942.3402982' target='_blank'>Paper</a>"
       },
       {
         "title": "tonkaz: CLI Testing Tools for Data Analysis",
@@ -228,7 +228,7 @@
         "title": "Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers",
         "thumbnail": "project/marioInterface.png",
         "description": "Visualizing MCTS-based tester's results for manually making 'Super Mario Brothers' stages",
-        "link": "<a href='./projects/mario' target='_blank'>Project</a>"
+        "link": "<a href='https://doi.org/10.1145/3402942.3402982' target='_blank'>Paper</a>"
       },
       {
         "title": "tonkaz: CLI Testing Tools for Data Analysis",
