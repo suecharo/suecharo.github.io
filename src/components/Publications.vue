@@ -1,4 +1,5 @@
 <template>
+  <!--eslint-disable vue/no-v-html-->
   <div class="d-flex flex-column">
     <h2 class="title mb-2">Publications</h2>
     <div
@@ -22,7 +23,7 @@
           :key="j"
           class="text-justify"
           v-html="item"
-        ></li>
+        />
       </ol>
     </div>
   </div>
@@ -34,9 +35,9 @@ import { mapGetters } from 'vuex'
 export default {
   computed: {
     ...mapGetters({
-      publications: 'content/getPublications'
-    })
-  }
+      publications: 'content/getPublications',
+    }),
+  },
 }
 </script>
 

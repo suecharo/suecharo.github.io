@@ -33,8 +33,8 @@ export default {
     FundingSources,
     Projects,
     Talks,
-    LangChangeButton
-  }
+    LangChangeButton,
+  },
 }
 </script>
 

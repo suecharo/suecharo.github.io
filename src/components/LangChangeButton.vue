@@ -18,13 +18,13 @@ export default {
       return this.$store.state.content.lang === 'en'
         ? 'Japanese Page'
         : 'English Page'
-    }
+    },
   },
   methods: {
     changeLang() {
       this.$store.dispatch('content/changeLang')
-    }
-  }
+    },
+  },
 }
 </script>
 

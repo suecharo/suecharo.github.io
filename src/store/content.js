@@ -3,7 +3,7 @@ import content from '~/assets/content.json'
 export const state = () => ({
   contentJa: content.ja,
   contentEn: content.en,
-  lang: 'en'
+  lang: 'en',
 })
 
 export const getters = {
@@ -34,17 +34,17 @@ export const getters = {
     return state.lang === 'en'
       ? state.contentEn.fundingSources
       : state.contentJa.fundingSources
-  }
+  },
 }
 
 export const mutations = {
   changeLang(state) {
     state.lang = state.lang === 'en' ? 'ja' : 'en'
-  }
+  },
 }
 
 export const actions = {
   changeLang({ commit }) {
     commit('changeLang')
-  }
+  },
 }

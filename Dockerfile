@@ -1,12 +1,11 @@
-FROM node:13-buster-slim
+FROM node:14-buster-slim
 
-ADD https://github.com/krallin/tini/releases/download/v0.18.0/tini /usr/local/bin/tini
-RUN chmod +x /usr/local/bin/tini
-
-RUN apt-get update && apt-get install -y \
+RUN apt update && apt install -y \
     build-essential \
     g++ \
     python \
+    tini \
+    && apt autoremove \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -16,8 +15,8 @@ RUN yarn install
 
 COPY . .
 
-ENV HOST 0.0.0.0
-ENV PORT 3000
+ENV NUXT_HOST 0.0.0.0
+ENV NUXT_PORT 3000
 EXPOSE 3000
 
 ENTRYPOINT ["tini", "--"]

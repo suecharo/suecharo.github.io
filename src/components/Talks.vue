@@ -1,4 +1,5 @@
 <template>
+  <!--eslint-disable vue/no-v-html-->
   <div class="d-flex flex-column">
     <h2 class="title mb-2">Talks</h2>
     <ol class="ml-4">
@@ -18,9 +19,9 @@ import { mapGetters } from 'vuex'
 export default {
   computed: {
     ...mapGetters({
-      talks: 'content/getTalks'
-    })
-  }
+      talks: 'content/getTalks',
+    }),
+  },
 }
 </script>
 

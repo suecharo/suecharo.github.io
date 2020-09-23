@@ -25,14 +25,14 @@
             class="d-flex"
             :class="{
               'flex-column': !breakpointSmAndUp,
-              'align-center': !breakpointSmAndUp
+              'align-center': !breakpointSmAndUp,
             }"
           >
-            <div class="text-center" style="width: 80px;">
+            <div class="text-center" style="width: 80px">
               {{ item.from }}
             </div>
             <div class="text-center">-</div>
-            <div class="text-center" style="width: 80px;">{{ item.to }}</div>
+            <div class="text-center" style="width: 80px">{{ item.to }}</div>
           </div>
           <!-- eslint-disable-next-line vue/no-v-html -->
           <div class="ml-4" v-html="item.content"></div>
@@ -48,20 +48,20 @@ import { mapGetters } from 'vuex'
 export default {
   data() {
     return {
-      isHydrated: false
+      isHydrated: false,
     }
   },
   computed: {
     ...mapGetters({
-      biography: 'content/getBiography'
+      biography: 'content/getBiography',
     }),
     breakpointSmAndUp() {
       return this.isHydrated ? this.$vuetify.breakpoint.smAndUp : true
-    }
+    },
   },
   mounted() {
     this.isHydrated = true
-  }
+  },
 }
 </script>
 

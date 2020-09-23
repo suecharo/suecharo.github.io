@@ -1,4 +1,5 @@
 <template>
+  <!--eslint-disable vue/no-v-html-->
   <div class="d-flex flex-column">
     <div class="d-flex" :class="{ 'flex-column': !breakpointSmAndUp }">
       <v-img :max-width="selfieWidth" src="selfie.png"></v-img>
@@ -6,16 +7,12 @@
         class="d-flex flex-column"
         :class="{
           'ml-6': breakpointSmAndUp,
-          'mt-4': !breakpointSmAndUp
+          'mt-4': !breakpointSmAndUp,
         }"
       >
-        <!-- eslint-disable-next-line vue/no-v-html -->
         <div v-html="profile.affiliation"></div>
-        <!-- eslint-disable-next-line vue/no-v-html -->
         <div class="mt-2" v-html="profile.position"></div>
-        <!-- eslint-disable-next-line vue/no-v-html -->
         <div class="mt-2 headline" v-html="profile.name"></div>
-        <!-- eslint-disable-next-line vue/no-v-html -->
         <div class="mt-2">
           <span class="font-weight-medium">email: </span>{{ profile.email }}
         </div>
@@ -32,17 +29,17 @@
         </div>
       </div>
     </div>
-    <div class="d-flex flex-column text-justify mt-4">
-      <!-- eslint-disable-next-line vue/no-v-html -->
-      <div v-html="profile.researchInterest.shortBio"></div>
-      <div class="d-flex flex-column mt-2 ml-2">
-        <div class="subtitle-1 font-weight-medium">Topics</div>
-        <ul class="ml-2">
-          <li v-for="(topic, i) in profile.researchInterest.topics" :key="i">
-            {{ topic }}
-          </li>
-        </ul>
-      </div>
+    <div
+      class="d-flex flex-column text-justify mt-4"
+      v-html="profile.researchInterest.shortBio"
+    ></div>
+    <div class="d-flex flex-column mt-2 ml-2">
+      <div class="subtitle-1 font-weight-medium">Topics</div>
+      <ul class="ml-2">
+        <li v-for="(topic, i) in profile.researchInterest.topics" :key="i">
+          {{ topic }}
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -53,23 +50,23 @@ import { mapGetters } from 'vuex'
 export default {
   data() {
     return {
-      isHydrated: false
+      isHydrated: false,
     }
   },
   computed: {
     ...mapGetters({
-      profile: 'content/getProfile'
+      profile: 'content/getProfile',
     }),
     breakpointSmAndUp() {
       return this.isHydrated ? this.$vuetify.breakpoint.smAndUp : true
     },
     selfieWidth() {
       return this.$vuetify.breakpoint.smAndUp ? '300px' : '1000px'
-    }
+    },
   },
   mounted() {
     this.isHydrated = true
-  }
+  },
 }
 </script>
 

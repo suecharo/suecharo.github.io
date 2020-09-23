@@ -1,4 +1,5 @@
 <template>
+  <!--eslint-disable vue/no-v-html-->
   <div>
     <h2 class="title mb-2">Projects</h2>
     <div class="d-flex flex-column ml-4">
@@ -14,13 +15,11 @@
           :class="{ 'ml-6': breakpointSmAndUp, 'mt-2': !breakpointSmAndUp }"
         >
           <div
-            style="line-height: 1.3;"
+            style="line-height: 1.3"
             class="secondary--text title text-justify"
             v-html="item.title"
           ></div>
-          <!-- eslint-disable-next-line vue/no-v-html -->
           <div class="mt-1 text-justify" v-html="item.description"></div>
-          <!-- eslint-disable-next-line vue/no-v-html -->
           <div
             class="mt-1 text-justify font-weight-light"
             v-html="item.link"
@@ -37,23 +36,23 @@ import { mapGetters } from 'vuex'
 export default {
   data() {
     return {
-      isHydrated: false
+      isHydrated: false,
     }
   },
   computed: {
     ...mapGetters({
-      projects: 'content/getProjects'
+      projects: 'content/getProjects',
     }),
     breakpointSmAndUp() {
       return this.isHydrated ? this.$vuetify.breakpoint.smAndUp : true
     },
     imgWidth() {
       return this.$vuetify.breakpoint.smAndUp ? '200px' : '1000px'
-    }
+    },
   },
   mounted() {
     this.isHydrated = true
-  }
+  },
 }
 </script>
 
