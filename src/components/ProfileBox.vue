@@ -1,8 +1,8 @@
 <template>
   <!--eslint-disable vue/no-v-html-->
   <div class="d-flex flex-column">
-    <div class="d-flex" :class="{ 'flex-column': !breakpointSmAndUp }">
-      <v-img :max-width="selfieWidth" src="selfie.png"></v-img>
+    <div class="d-flex" :class="{ flexColumn: !breakpointSmAndUp }">
+      <v-img :max-width="selfieWidth" src="selfie.png" />
       <div
         class="d-flex flex-column"
         :class="{
@@ -10,9 +10,9 @@
           'mt-4': !breakpointSmAndUp,
         }"
       >
-        <div v-html="profile.affiliation"></div>
-        <div class="mt-2" v-html="profile.position"></div>
-        <div class="mt-2 headline" v-html="profile.name"></div>
+        <div v-html="profile.affiliation" />
+        <div class="mt-2" v-html="profile.position" />
+        <div class="mt-2 headline" v-html="profile.name" />
         <div class="mt-2">
           <span class="font-weight-medium">email: </span>{{ profile.email }}
         </div>
@@ -23,22 +23,24 @@
             :class="{ 'ml-2': i !== 0 }"
           >
             <a :href="item.src" :alt="item.name" target="_blank">
-              <v-img width="32" :src="item.icon" :alt="item.name"></v-img>
+              <v-img width="32" :src="item.icon" :alt="item.name" />
             </a>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="d-flex flex-column text-justify mt-4"
+      class="d-flex flex-column text-justify mt-4 mx-2"
       v-html="profile.researchInterest.shortBio"
-    ></div>
-    <div class="d-flex flex-column mt-2 ml-2">
-      <div class="subtitle-1 font-weight-medium">Topics</div>
+    />
+    <div class="d-flex flex-column mt-2 mx-2">
+      <div class="subtitle-1 font-weight-medium" v-text="'Topics'" />
       <ul class="ml-2">
-        <li v-for="(topic, i) in profile.researchInterest.topics" :key="i">
-          {{ topic }}
-        </li>
+        <li
+          v-for="(topic, i) in profile.researchInterest.topics"
+          :key="i"
+          v-text="topic"
+        />
       </ul>
     </div>
   </div>

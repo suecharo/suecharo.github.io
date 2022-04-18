@@ -3,7 +3,7 @@
     "profile": {
       "selfie": "selfie.png",
       "affiliation": "<a href='https://www.u-tokyo.ac.jp/ja/index.html' target='_blank'>東京大学大学院</a> <a href='https://www.i.u-tokyo.ac.jp/' target='_blank'>情報理工学系研究科</a><br><a href='https://www.i.u-tokyo.ac.jp/edu/course/ci/' target='_blank'>創造情報学専攻</a> <a href='https://www-ui.is.s.u-tokyo.ac.jp/' target='_blank'>五十嵐研究室</a>",
-      "position": "博士課程1年",
+      "position": "博士課程3年",
       "name": "末竹 裕貴",
       "email": "suehiro619 (at) gmail.com",
       "link": [
@@ -24,7 +24,7 @@
         }
       ],
       "researchInterest": {
-        "shortBio": "生命科学分野や計算機科学分野において、実験や解析を効率良く行うための研究を行っています。博士課程では、日本学術振興会特別研究員(DC1)として「バイオインフォマティクスのためのインタラクション」について取り組んでいます。またエンジニアとして、様々な研究機関向けのインフラストラクチャ構築やシステム開発に携わっています。",
+        "shortBio": "生命科学分野において、実験や解析を効率良く行うための研究を行っています。博士課程では、日本学術振興会特別研究員(DC1)として「バイオインフォマティクスのためのインタラクション」について取り組んでいます。またエンジニアとして、様々な研究機関向けのインフラストラクチャ構築やシステム開発に携わっています。",
         "topics": [
           "Life Science",
           "Bioinformatics",
@@ -32,7 +32,7 @@
           "Human Computer Interaction",
           "Game Design",
           "Computational Workflow",
-          "Reproducibility"
+          "Research Reproducibility"
         ]
       }
     },
@@ -54,7 +54,7 @@
           "content": "<a href='https://www.titech.ac.jp' target='_blank'>東京工業大学</a> <a href='https://educ.titech.ac.jp/bio/' target='_blank'>生命理工学部</a><br><a href='http://www.bio.titech.ac.jp/dept/kagaku/index.html' target='_blank'>生命科学科</a> 学士課程<br>Mentor: <a href='https://researchmap.jp/maskot/' target='_blank'>Masaaki Kotera</a>"
         }
       ],
-      "appointments": [
+      "appointment": [
         {
           "from": "Oct.2019",
           "to": "Sep.2019",
@@ -84,52 +84,62 @@
         },
         {
           "from": "Oct.2017",
-          "to": "Current",
+          "to": "Jun.2021",
           "content": "<a href='http://www.riken.jp/research/labs/aip/' target='_blank'>理化学研究所 革新知能統合研究センター</a><br><a href='http://www.riken.jp/research/labs/aip/generic_tech/search_parallelcomput/' target='_blank'>探索と並列計算ユニット</a><br>Research Assistant<br>Mentor: <a href='https://researchmap.jp/k-yoshizoe/' target='_blank'>Kazuki Yoshizoe</a>"
         }
       ]
     },
-    "projects": [
+    "project": [
+      {
+        "title": "Yevis",
+        "thumbnail": "project/yevis.png",
+        "description": "System for building a workflow registry that automatically maintains workflows",
+        "link": "<a href='https://github.com/ddbj/yevis-cli' target='_blank'>GitHub</a>"
+      },
+      {
+        "title": "gh-trs",
+        "thumbnail": "project/gh-trs.png",
+        "description": "CLI tool to publish and test your own GA4GH Tool Registry Service (TRS) using GitHub",
+        "link": "<a href='https://github.com/suecharo/gh-trs' target='_blank'>GitHub</a>"
+      },
+      {
+        "title": "Sapporo",
+        "thumbnail": "project/sapporo.png",
+        "description": "Implementation of GA4GH Workflow Execution Service (WES) or so-called Workflow-as-a-Service",
+        "link": "<a href='https://github.com/sapporo-wes/sapporo' target='_blank'>GitHub</a>"
+      },
       {
         "title": "Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers",
         "thumbnail": "project/marioInterface.png",
         "description": "Visualizing MCTS-based tester's results for manually making 'Super Mario Brothers' stages",
         "link": "<a href='https://doi.org/10.1145/3402942.3402982' target='_blank'>Paper</a>"
-      },
-      {
-        "title": "tonkaz: CLI Testing Tools for Data Analysis",
-        "thumbnail": "project/tonkaz.jpeg",
-        "description": "データ解析のための CLI テストツール",
-        "link": "<a href='https://github.com/suecharo/tonkaz' target='_blank'>GitHub</a>"
-      },
-      {
-        "title": "Sapporo: Workflow Execution Service that Supports Various Workflow Runners for Data Analysis",
-        "thumbnail": "project/sapporo.png",
-        "description": "GA4GH API 定義に準拠したワークフロ管理実行システム",
-        "link": "<a href='https://github.com/ddbj/SAPPORO' target='_blank'>GitHub</a>"
       }
     ],
-    "publications": {
-      "fullPaper": [
+    "publication": {
+      "paper": [
+        "<u><b>Hirotaka Suetake</b></u>, Tsukasa Fukusato, Christian Arzate Cruz, Andy Nealen, Takeo Igarashi. 'Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers' <i>In Proceedings of the 15th International Conference on the Foundations of Digital Games (FDG 2020)</i>, Malta, 2020.09.15-18. [<a href='https://doi.org/10.1145/3402942.3402982' target='_blank'>link</a>]",
         "<u><b>Hirotaka Suetake</b></u>, Masaaki Kotera. 'KPHMMER: Hidden Markov Model generator for detecting KEGG PATHWAY specific genes.' 2019. [<a href='https://doi.org/10.1101/636290' target='_blank'>link</a>]",
         "Masayuki Sato, <u><b>Hirotaka Suetake</b></u>, Masaaki Kotera. 'KCF-Convoy: efficient Python package to convert KEGG Chemical Function and Substructure fingerprints.' 2019. [<a href='https://doi.org/10.1101/452383' target='_blank'>link</a>]"
       ],
-      "shortPaper_extendedAbstract": [
-        "<u><b>Hirotaka Suetake</b></u>, Tsukasa Fukusato, Christian Arzate Cruz, Andy Nealen, Takeo Igarashi. 'Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers' <i>In Proceedings of the 15th International Conference on the Foundations of Digital Games (FDG 2020)</i>, Malta, 2020.09.15-18. [<a href='https://doi.org/10.1145/3402942.3402982' target='_blank'>link</a>]"
-      ],
       "poster_abstract_demonstration": [
+        "<u><b>Hirotaka Suetake</b></u>, Manabu Ishii, Tomoya Tanjo, Tazro Ohta. 'Sapporo: an implementation of GA4GH Workflow Execution Service standard to bridge the different workflow language communities' <i>Intelligent Systems for Molecular Biology, European Conference on Computational Biology 2021 (ISMB/ECCB 2021)</i>, Online, 2021.7.29-30.",
+        "<u><b>Hirotaka Suetake</b></u>. 'gh-trs: your own API fully based on GitHub to serve workflow metadata' <i>Intelligent Systems for Molecular Biology, European Conference on Computational Biology 2021 (ISMB/ECCB 2021)</i>, Online, 2021.7.29-30.",
         "<u><b>Hirotaka Suetake</b></u>. 'Genpei: an implementation of GA4GH Workflow Execution Service Standard as a microservice' <i>Bioinformatics Open Source Conference 2020 (BOSC 2020)</i>, Online, 2020.7.19-21.",
-        "<u><b>Hirotaka Suetake</b></u>，Tsukasa Fukusato，Christian Arzate Cruz，Andy Nealen，Takeo Igarashi. 'ゲームAIによるパラメータ空間解析を活用した難易度調整用インターフェース' <i>The 27th Workshop on Interactive Systems and Software (WISS 2019)</i>, Nagano, 2019.9.25-27.",
+        "<u><b>Hirotaka Suetake</b></u>, Tsukasa Fukusato, Christian Arzate Cruz, Andy Nealen, Takeo Igarashi. 'ゲームAIによるパラメータ空間解析を活用した難易度調整用インターフェース' <i>The 27th Workshop on Interactive Systems and Software (WISS 2019)</i>, Nagano, 2019.9.25-27.",
         "<u><b>Hirotaka Suetake</b></u>, Tazro Ohta. 'SAPPORO: workflow management system that supports continuous testing of workflows.' <i>Intelligent Systems for Molecular Biology, European Conference on Computational Biology 2019 (ISMB/ECCB 2019)</i>, Basel, 2019.7.21-25.",
         "<u><b>Hirotaka Suetake</b></u>, Ryo Nakaki. 'RyuGoo-Saba: a CWL-based execution engine utilizing cloud resources for big data analysis in life science.' <i>Galaxy Community and Bioinformatics Open Source Conference 2018 (GCC/BOSC 2018)</i>, B15, Portland, 2018.6.25-30. [<a href='https://f1000research.com/posters/7-1053' target='_blank'>link</a>]"
       ]
     },
-    "talks": [
+    "talk": [
+      "<u><b>Hirotaka Suetake</b></u>, Manabu Ishii, Tomoya Tanjo, Tazro Ohta. 'Improve Sapporo's interoperability with the implementation of Workflow Execution Service of Elixir and beyond' <i>BioHackathon EU 2021</i>, Online and Barcelona, 2021.11.8-12.",
+      "<u><b>Hirotaka Suetake</b></u>. 'Workflow Execution Service (WES)' <i>Informatics in Biology, Medicine and Pharmacology (IIBMP 2021)</i>, Tokyo, 2021.9.27-29.",
+      "<u><b>Hirotaka Suetake</b></u>, Manabu Ishii, Tomoya Tanjo. 'Sapporo WES as a Public Web Service' <i>BioHackathon EU 2020</i>, Online, 2020.11.9-13.",
+      "<u><b>Hirotaka Suetake</b></u>, Manabu Ishii, Tazro Ohta. 'Implementation and sharing of workflows for personal genomic data on DDBJ's workflow execution system SAPPORO' <i>BioHackathon EU 2029</i>, Seine-Port, 2020.11.18-22.",
       "<u><b>Hirotaka Suetake</b></u>. 'データ解析のためのテストフレームワーク' <i>Informatics in Biology, Medicine and Pharmacology (IIBMP 2019)</i>, Tokyo, 2019.9.9-11.",
       "<u><b>Hirotaka Suetake</b></u>. 'SAPPORO & tonkaz: Test framework for data analysis.' <i>BioHackathon 2019 Symposium</i>, Fukuoka, 2019.9.1. [<a href='http://2019.biohackathon.org/symposium' target='_blank'>link</a>]",
       "<u><b>Hirotaka Suetake</b></u>, Tazro Ohta. 'SAPPORO: workflow management system that supports continuous testing of workflows.' <i>AMED-GA4GH GEM Japan workshop 2019</i>, Sendai, 2019.3.18-21. [<a href='https://www.biobank.amed.go.jp/news/2019-04-01-12-00-00.html' target='_blank'>link</a>]"
     ],
-    "fundingSources": [
+    "fundingSource": [
       "日本学術振興会 特別研究員 (DC1) 'バイオインフォマティクスのためのインタラクション', 2020.04-2023.03."
     ]
   },
@@ -137,7 +147,7 @@
     "profile": {
       "selfie": "selfie.png",
       "affiliation": "<a href='https://www.i.u-tokyo.ac.jp/index_e.shtml' target='_blank'>Graduate School of Information Science and Technology</a>,<br><a href='https://www.u-tokyo.ac.jp/en/index.html' target='_blank'>University of Tokyo</a>, <a href='https://www-ui.is.s.u-tokyo.ac.jp/en/' target='_blank'>Igarashi Laboratory</a>",
-      "position": "Ph.D. Student 1st year",
+      "position": "Ph.D. Student 3rd year",
       "name": "Hirotaka Suetake",
       "email": "suehiro619 (at) gmail.com",
       "link": [
@@ -158,14 +168,12 @@
         }
       ],
       "researchInterest": {
-        "shortBio": "I'm researching to make experiments and analyses more efficient in the life sciences and computer science fields. In my Ph.D. course, I'm working on 'Interaction for Bioinformatics' as a Japan Society for the Promotion of Science(JSPS) research fellowship(DC1). Also, as an engineer, I involve in building infrastructure and developing systems for various research institutions.",
+        "shortBio": "I'm researching to make experiments and analyses more efficient in the life sciences. In my Ph.D. course, I'm working on 'Interaction for Bioinformatics' as a Japan Society for the Promotion of Science(JSPS) research fellowship(DC1). Also, as an engineer, I involve in infrastructure construction and system development systems for various research institutions.",
         "topics": [
           "Life Science",
           "Bioinformatics",
           "Computer Science",
-          "Human Computer Interaction",
-          "Game Design",
-          "Computational Workflow",
+          "Workflow",
           "Reproducibility"
         ]
       }
@@ -188,11 +196,11 @@
           "content": "Bachelor Course,<br>Department of Bioscience, <a href='http://www.bio.titech.ac.jp/english/' target='_blank'>School of Bioscience and Biotechnology</a>,<br><a href='https://www.titech.ac.jp/english/' target='_blank'>Tokyo Institute of Technology</a>, Japan<br>Mentor: <a href='https://researchmap.jp/maskot/?lang=en' target='_blank'>Masaaki Kotera</a>"
         }
       ],
-      "appointments": [
+      "appointment": [
         {
           "from": "Oct.2019",
           "to": "Sep.2019",
-          "content": "<a href='https://preferred.jp/en/'>Preferred Networks, Inc.</a>"
+          "content": "<a href='https://preferred.jp/en/' target='_blank'>Preferred Networks, Inc.</a>"
         },
         {
           "from": "Apr.2019",
@@ -218,52 +226,62 @@
         },
         {
           "from": "Oct.2017",
-          "to": "Current",
+          "to": "Jun.2021",
           "content": "<a href='https://www.riken.jp/en/research/labs/aip/index.html' target='_blank'>RIKEN Center for Advanced Intelligence Project (AIP)</a><br><a href='https://www.riken.jp/en/research/labs/aip/generic_tech/search_parallelcomput/index.html' target='_blank'>Search and Parallel Computing Unit</a><br>Research Assistant<br>Mentor: <a href='https://researchmap.jp/k-yoshizoe/?lang=en' target='_blank'>Kazuki Yoshizoe</a>"
         }
       ]
     },
-    "projects": [
+    "project": [
+      {
+        "title": "Yevis",
+        "thumbnail": "project/yevis.png",
+        "description": "System for building a workflow registry that automatically maintains workflows",
+        "link": "<a href='https://github.com/ddbj/yevis-cli' target='_blank'>GitHub</a>"
+      },
+      {
+        "title": "gh-trs",
+        "thumbnail": "project/gh-trs.png",
+        "description": "CLI tool to publish and test your own GA4GH Tool Registry Service (TRS) using GitHub",
+        "link": "<a href='https://github.com/suecharo/gh-trs' target='_blank'>GitHub</a>"
+      },
+      {
+        "title": "Sapporo",
+        "thumbnail": "project/sapporo.png",
+        "description": "Implementation of GA4GH Workflow Execution Service (WES) or so-called Workflow-as-a-Service",
+        "link": "<a href='https://github.com/sapporo-wes/sapporo' target='_blank'>GitHub</a>"
+      },
       {
         "title": "Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers",
         "thumbnail": "project/marioInterface.png",
         "description": "Visualizing MCTS-based tester's results for manually making 'Super Mario Brothers' stages",
         "link": "<a href='https://doi.org/10.1145/3402942.3402982' target='_blank'>Paper</a>"
-      },
-      {
-        "title": "tonkaz: CLI Testing Tools for Data Analysis",
-        "thumbnail": "project/tonkaz.jpeg",
-        "description": "CLI testing tools for data analysis",
-        "link": "<a href='https://github.com/suecharo/tonkaz' target='_blank'>GitHub</a>"
-      },
-      {
-        "title": "Sapporo: Workflow Execution Service that Supports Various Workflow Runners for Data Analysis",
-        "thumbnail": "project/sapporo.png",
-        "description": "Workflow execution system based on the GA4GH API definition",
-        "link": "<a href='https://github.com/ddbj/SAPPORO' target='_blank'>GitHub</a>"
       }
     ],
-    "publications": {
-      "fullPaper": [
+    "publication": {
+      "paper": [
+        "<u><b>Hirotaka Suetake</b></u>, Tsukasa Fukusato, Christian Arzate Cruz, Andy Nealen, Takeo Igarashi. 'Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers' <i>In Proceedings of the 15th International Conference on the Foundations of Digital Games (FDG 2020)</i>, Malta, 2020.09.15-18. [<a href='https://doi.org/10.1145/3402942.3402982' target='_blank'>link</a>]",
         "<u><b>Hirotaka Suetake</b></u>, Masaaki Kotera. 'KPHMMER: Hidden Markov Model generator for detecting KEGG PATHWAY specific genes.' 2019. [<a href='https://doi.org/10.1101/636290' target='_blank'>link</a>]",
         "Masayuki Sato, <u><b>Hirotaka Suetake</b></u>, Masaaki Kotera. 'KCF-Convoy: efficient Python package to convert KEGG Chemical Function and Substructure fingerprints.' 2019. [<a href='https://doi.org/10.1101/452383' target='_blank'>link</a>]"
       ],
-      "shortPaper_extendedAbstract": [
-        "<u><b>Hirotaka Suetake</b></u>, Tsukasa Fukusato, Christian Arzate Cruz, Andy Nealen, Takeo Igarashi. 'Interactive Design Exploration of Game Stages Using Adjustable Synthetic Testers' <i>In Proceedings of the 15th International Conference on the Foundations of Digital Games (FDG 2020)</i>, Malta, 2020.09.15-18. [<a href='https://doi.org/10.1145/3402942.3402982' target='_blank'>link</a>]"
-      ],
       "poster_abstract_demonstration": [
+        "<u><b>Hirotaka Suetake</b></u>, Manabu Ishii, Tomoya Tanjo, Tazro Ohta. 'Sapporo: an implementation of GA4GH Workflow Execution Service standard to bridge the different workflow language communities' <i>Intelligent Systems for Molecular Biology, European Conference on Computational Biology 2021 (ISMB/ECCB 2021)</i>, Online, 2021.7.29-30.",
+        "<u><b>Hirotaka Suetake</b></u>. 'gh-trs: your own API fully based on GitHub to serve workflow metadata' <i>Intelligent Systems for Molecular Biology, European Conference on Computational Biology 2021 (ISMB/ECCB 2021)</i>, Online, 2021.7.29-30.",
         "<u><b>Hirotaka Suetake</b></u>. 'Genpei: an implementation of GA4GH Workflow Execution Service Standard as a microservice' <i>Bioinformatics Open Source Conference 2020 (BOSC 2020)</i>, Online, 2020.7.19-21.",
-        "<u><b>Hirotaka Suetake</b></u>，Tsukasa Fukusato，Christian Arzate Cruz，Andy Nealen，Takeo Igarashi. 'ゲームAIによるパラメータ空間解析を活用した難易度調整用インターフェース' <i>The 27th Workshop on Interactive Systems and Software (WISS 2019)</i>, Nagano, 2019.9.25-27.",
+        "<u><b>Hirotaka Suetake</b></u>, Tsukasa Fukusato, Christian Arzate Cruz, Andy Nealen, Takeo Igarashi. 'ゲームAIによるパラメータ空間解析を活用した難易度調整用インターフェース' <i>The 27th Workshop on Interactive Systems and Software (WISS 2019)</i>, Nagano, 2019.9.25-27.",
         "<u><b>Hirotaka Suetake</b></u>, Tazro Ohta. 'SAPPORO: workflow management system that supports continuous testing of workflows.' <i>Intelligent Systems for Molecular Biology, European Conference on Computational Biology 2019 (ISMB/ECCB 2019)</i>, Basel, 2019.7.21-25.",
         "<u><b>Hirotaka Suetake</b></u>, Ryo Nakaki. 'RyuGoo-Saba: a CWL-based execution engine utilizing cloud resources for big data analysis in life science.' <i>Galaxy Community and Bioinformatics Open Source Conference 2018 (GCC/BOSC 2018)</i>, B15, Portland, 2018.6.25-30. [<a href='https://f1000research.com/posters/7-1053' target='_blank'>link</a>]"
       ]
     },
-    "talks": [
+    "talk": [
+      "<u><b>Hirotaka Suetake</b></u>, Manabu Ishii, Tomoya Tanjo, Tazro Ohta. 'Improve Sapporo's interoperability with the implementation of Workflow Execution Service of Elixir and beyond' <i>BioHackathon EU 2021</i>, Online and Barcelona, 2021.11.8-12.",
+      "<u><b>Hirotaka Suetake</b></u>. 'Workflow Execution Service (WES)' <i>Informatics in Biology, Medicine and Pharmacology (IIBMP 2021)</i>, Tokyo, 2021.9.27-29.",
+      "<u><b>Hirotaka Suetake</b></u>, Manabu Ishii, Tomoya Tanjo. 'Sapporo WES as a Public Web Service' <i>BioHackathon EU 2020</i>, Online, 2020.11.9-13.",
+      "<u><b>Hirotaka Suetake</b></u>, Manabu Ishii, Tazro Ohta. 'Implementation and sharing of workflows for personal genomic data on DDBJ's workflow execution system SAPPORO' <i>BioHackathon EU 2029</i>, Seine-Port, 2020.11.18-22.",
       "<u><b>Hirotaka Suetake</b></u>. 'データ解析のためのテストフレームワーク' <i>Informatics in Biology, Medicine and Pharmacology (IIBMP 2019)</i>, Tokyo, 2019.9.9-11.",
       "<u><b>Hirotaka Suetake</b></u>. 'SAPPORO & tonkaz: Test framework for data analysis.' <i>BioHackathon 2019 Symposium</i>, Fukuoka, 2019.9.1. [<a href='http://2019.biohackathon.org/symposium' target='_blank'>link</a>]",
       "<u><b>Hirotaka Suetake</b></u>, Tazro Ohta. 'SAPPORO: workflow management system that supports continuous testing of workflows.' <i>AMED-GA4GH GEM Japan workshop 2019</i>, Sendai, 2019.3.18-21. [<a href='https://www.biobank.amed.go.jp/news/2019-04-01-12-00-00.html' target='_blank'>link</a>]"
     ],
-    "fundingSources": [
+    "fundingSource": [
       "Research Fellowship for Young Scientists (DC1), JSPS. 2020.4-2023.3."
     ]
   }

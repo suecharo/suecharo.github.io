@@ -1,19 +1,13 @@
 <template>
   <div class="d-flex flex-column">
-    <h2 class="title mb-2">Biography</h2>
+    <h2 class="title mb-2" v-text="'Biography'" />
     <div
       v-for="(val, key, i) in biography"
       :key="i"
       class="ml-2"
       :class="{ 'mt-2': i !== 0 }"
     >
-      <h3 class="subtitle-1 font-weight-medium">
-        <template v-if="key === 'education'">Education</template>
-        <template v-else-if="key === 'appointments'">Appointments</template>
-        <template v-else-if="key === 'workExperience'"
-          >Work Experience</template
-        >
-      </h3>
+      <h3 class="subtitle-1 font-weight-medium" v-text="headers[key]" />
       <div class="d-flex flex-column ml-2">
         <div
           v-for="(item, j) in val"
@@ -49,6 +43,11 @@ export default {
   data() {
     return {
       isHydrated: false,
+      headers: {
+        education: 'Education',
+        appointment: 'Appointment',
+        workExperience: 'Work Experience',
+      },
     }
   },
   computed: {

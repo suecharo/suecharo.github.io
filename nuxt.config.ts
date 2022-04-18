@@ -1,8 +1,9 @@
-export default {
+import { NuxtConfig } from '@nuxt/types'
+
+const config: NuxtConfig = {
   ssr: false,
   target: 'static',
   head: {
-    titleTemplate: '%s',
     title: 'Hirotaka Suetake Web Page',
     meta: [
       { charset: 'utf-8' },
@@ -14,12 +15,7 @@ export default {
       },
     ],
   },
-  css: [],
-  plugins: [],
-  components: true,
   buildModules: ['@nuxt/typescript-build', '@nuxtjs/vuetify'],
-  modules: ['@nuxtjs/axios'],
-  axios: {},
   vuetify: {
     theme: {
       themes: {
@@ -33,6 +29,7 @@ export default {
       },
     },
   },
-  build: {},
   srcDir: './src/',
 }
+
+export default config

@@ -5,9 +5,9 @@
       color="secondary"
       outlined
       small
-      @click="changeLang"
-      >{{ lang }}</v-btn
-    >
+      @click.stop="changeLang"
+      v-text="lang"
+    />
   </div>
 </template>
 
