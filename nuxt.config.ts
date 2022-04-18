@@ -13,7 +13,6 @@ export default {
         content: 'Hirotaka Suetake Web Page',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   css: [],
   plugins: [],
